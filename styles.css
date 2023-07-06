@@ -1,0 +1,125 @@
+body {
+    background-image:url(/VaporwaveStyle/vwwv_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 760px;
+    max-width: 1450px;
+}
+
+
+header {
+    background-image:url(/VaporwaveStyle/vw_logo.jpg);
+    background-position: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20em;
+    margin-right: 20em;
+    min-width: 760px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.80), 0 6px 20px 0 rgba(0,0,0,0.80);
+}
+
+h1 {
+    background-image:url(/VaporwaveStyle/vwwv_background.jpg);
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.wrapper {
+    display: grid;
+    margin-left: 20em;
+    margin-right: 20em;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    row-gap: 1.5em;
+    column-gap: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    min-width: 760px;
+}
+
+.box {
+    background-color: white;
+    padding: 2em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.35), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+
+.box:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
+}
+
+#box1 {
+    background-image:url(/VaporwaveStyle/vw_background2.jpg);
+    background-position: bottom;
+    position: relative;
+    text-align: center;
+}
+
+#email {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+#box2 {
+    background-image:url(/VaporwaveStyle/vw_calig.png);
+    background-size: cover;
+}
+
+#box3 {
+    color: white;
+    font-weight: bold;
+}
+
+#box4 {
+    background-image:url(/VaporwaveStyle/vw_example.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#box5 {
+    background-image:url(/VaporwaveStyle/vwg_background.jpg);
+    background-position: center;
+}
+
+#box6 {
+    position: relative;
+    background-image:url(vw_checkerboard2.jpg);
+}
+
+#innerdiv {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#nvw {
+    height: 125px;
+}
+
+#box7 {
+    background-image:url(/VaporwaveStyle/vwws_background.jpg);
+    text-align: center;
+}
+
+#myBtn {
+    background-color: lightblue;
+    color: pink;
+    width: 100px;
+    height: 100px;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.50);
+  }
+
+  #box8 {
+    background-image:url(/VaporwaveStyle/vwws_background.png);
+    background-position: 25% 25%;
+  }
